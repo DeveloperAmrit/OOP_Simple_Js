@@ -1,7 +1,7 @@
 class Animal{
     constructor(){
         console.log(this.capatalize('hello'))
-        // console.log(this.splitter('hello')) has different syntax
+        // console.log(this.splitter('hello')) has
         console.log(Animal.splitter('hello'))
     }
     capatalize(text){
@@ -24,6 +24,6 @@ let b = Monkey.capatalize('small')
 let c = Animal.splitter('Amrit')
 // let d = Monkey.splitter('Amrit') cannot do this
 
-console.log(a,b)
+
 
 // NOTE THAT BOTH METHODS CAN BE USED WITHIN THE CLASS
